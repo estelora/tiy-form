@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="css/tiy-form.css">
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab' rel='stylesheet' type='text/css'>
+      <meta charset="utf-8">
+      <title>Registration Form</title>
+    </head>
+
+  <body>
+
+    <div class="box">
+        <div class="rectangle">
+          <h2>User Registration</h2>
+        </div>
+        <div class="triangle-l"></div>
+        <div class="triangle-r"></div>
+
+        <div class="form">
+          <div>
+            <label>Full Name:</label>
+            <input type= "text" name="fullName" required>
+          </div>
+
+          <div>
+            <label>Phone Number:</label>
+            <input type= "text" placeholder="(___) ___ - ____" name="phoneNumber">
+          </div>
+
+          <div>
+            <label>Email address:</label>
+            <input type= "text"placeholder="address@internet.com" name="email" required >
+          </div>
+
+          <div>
+            <label>Occupation:</label>
+            <select>
+              <option value="Student">Student</option>
+              <option value="Service Industry">Service Industry</option>
+              <option value="Science and Technology">Science and Technology</option>
+              <option value="Healthcare and Medicine">Healthcare and Medicine</option>
+              <option value="Industrial and Manufacturing">Industrial and Manufacturing</option>
+            </select>
+            <br>
+          </div>
+
+          <div>
+            <label>Bio:</label>
+            <textarea name= "bio"> </textarea>
+          </div>
+
+          <div>
+            <label>Gender:</label>
+            <input type="radio" name="sex" value="male">
+            Male
+            <input type="radio" name="sex" value="female">
+            Female
+          </div>
+
+          <div>
+            <label>Notification Preferences:</label><br>
+            <input type="checkbox" name="notifications"value="sms">
+            Notifications via SMS (text message).
+            <br>
+            <input type="checkbox" name="notifications"value="email">
+            Notifications via email.
+            <br>
+          </div>
+
+          <div>
+            <input type="checkbox" name="terms-conditions"value="agree" required>
+            <label>By signing up, you accept our <a href="#">terms and conditions.</a>
+            </label>
+            <br>
+            </br>
+          </div>
+          <button type="submit" value="Sign Up">Sign Up</button>
+    </div>
+  </body>
+</html>
